@@ -8,7 +8,7 @@ import sun.awt.SunToolkit;
  * 引用传递: 传递的是对象的引用。2个引用指向同一个内存，其中一个改变，都是改变内存中数据本身。
  * 值传递：  传递的是值的拷贝。  2个变量无关联。
  */
-public class Test6 {
+public class Test6_arg {
     public static void main(String[] args){
         int i = 0;
         User u = new User();
