@@ -13,9 +13,9 @@ public class ImageCrawlerController {
     public static void main(String[] args) throws Exception{
         // args
         String rootFolder = "data/crawl/root";
-        int numberOfCralwers = 7;
+        int numberOfCralwers = 100;
         String storageFolder = rootFolder + "/image";
-        String[] crawlDomains = {"https://www.zhuangbi.info/"};
+        String[] crawlDomains = {"http://www.yuyingshuo.cn/"};
 
         // config
         CrawlConfig config = new CrawlConfig();
